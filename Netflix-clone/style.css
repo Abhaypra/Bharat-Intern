@@ -213,7 +213,6 @@ body{
     position: absolute;
     height: 100%;
     width: 100%;
-    /* top: 250px; */
     left: 100px;
     max-width: 62%;
     max-height: 50%;
@@ -252,14 +251,14 @@ body{
     left: 50%;
     transform: translateX(-50%);
     width: 100%;
-    max-width: 21em;
+    max-width: 336px;
     display: flex;
     text-align: center;
     background-color: black;
     border: 2px solid rgba(255, 255, 255, 0.25);
     border-radius: 10px;
     height: 60px;
-    padding: 0.25rem 0.6rem;
+    padding: 4px 9.6px;
     gap: 15px;
     margin-left: -80px;
     height: 100px;
@@ -348,18 +347,18 @@ body{
     transition: max-height 0.5s ease-in-out;
 }
 .FAQ__visible > p {
-    margin: 1rem;
+    margin: 16px;
 }
 .FAQ__list__container {
     border-top: 8px solid #222;
-    padding: 2rem 0;
+    padding: 32 0;
 }
   
 .FAQ__heading {
     font-size: 55px;
     text-align: center;
     font-weight: 900;
-    margin: 2rem 3rem;
+    margin: 32px 48px;
 }
 
 .FAQ__list {
@@ -385,7 +384,7 @@ body{
 
 footer {
     border-top: 8px solid #333;
-    padding: 2rem 1rem;
+    padding: 32px 16px;
     color: rgb(221, 207, 207);
     display: flex;
     flex-direction: column;
